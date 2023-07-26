@@ -1,0 +1,220 @@
+body {
+    background-color: #000033;
+    margin: 0;
+    padding: 0;
+}
+/*PARTE DE LA BARRA DE LA IZQUIERDA */
+#barralateral {
+   background-color: #000066;
+    height: 1000px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: fixed;
+    align-content: center;
+    
+} 
+#foto{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+
+}
+#info {
+    /*background-color: aliceblue;*/
+    list-style: none;
+    
+    line-height: 330%;
+    margin-bottom: 250px;
+}
+.info2{
+    font-family: 'Victor Mono', monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: #00FF66;
+    
+}
+/*--------------------------------------------------------------------------------*/
+/*PANEL #1 NOMBRE*/
+#JAIDER {
+ /*  background-color:#00FF66;*/
+    
+    height: 800px;
+    margin-left:    300PX;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Victor Mono', monospace;
+    
+}
+#titulop {
+ /*   background-color:aqua; */
+    margin: 0%;
+    color: #2ef8a0;
+    font-size: 50px;
+    padding-left: 100px;
+    font-family: 'Victor Mono', monospace;
+    display: inline-block;
+}
+.entrada {
+    padding-left: 20px;
+    color: #01c4e7;
+    font-family: 'Victor Mono', monospace;
+    display: inline-block;
+}
+
+#cv {
+    border: 0;
+    background-image: linear-gradient(150DEG,#9500ff,#09f,#0ddff0);
+    border-radius:8PX ;
+    color: white;
+    display: flex;
+    width: 220px;
+    margin-left: 200px;
+    font-family: 'Victor Mono', monospace;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transform: .3s;
+    
+}
+#cv #cv2 {
+    background-color: #111;
+    padding: 16px 30px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+#cv:hover #cv2 {
+    background: none;
+}
+
+#cv:active {
+    transform: scale(0.9);
+}
+/*--------------------------------------------------------------------------------*/
+/*PANEL 2 PROYECTOS*/
+#portafolio {
+    height: 800px;
+    margin-left:    300PX;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Victor Mono', monospace;
+    padding-top: 80px;
+}
+
+#proyectos {
+    margin: 50px 0 0 20px;
+    height: 490px;
+   /* background-color: #01c4e7;*/
+    display: inline-flex;
+
+}
+
+.box {
+    height: 470px;
+    width: 350px;
+   /* background-color: white;*/
+    margin: 10px;
+    border: 1px solid white;
+    
+}
+
+.img1{
+    width: 350px;
+    height:auto;
+}
+
+.parra1 {
+    color: #2ef8a0;
+    font-family: 'Victor Mono';
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+
+}
+.parra2 {
+    color: #01c4e7;
+    margin-left: 20px;
+}
+
+.html {
+    height: 40px;
+    margin: 10px 0px 0 20px;
+}
+.css {
+    height: 40px;
+}
+
+.git {
+    height: 30px;
+    margin: 20px 0px 0px 130px;
+
+}
+.enlace {
+    height: 30px;
+
+}
+/*--------------------------------------------------------------------------------*/
+/*PANEL 3 HABILIDADES*/
+
+#habilidades {
+    height: 800px;
+    margin-left:    300PX;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Victor Mono', monospace;  
+    padding-top: 20px;
+}
+
+.cub {
+    color: #01c4e7;
+    font-family: 'Victor Mono', monospace;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.cub img {
+    height: 50px;
+    width: auto;
+    margin: 60px 10px 0 30px;
+}
+
+.aprendiendo {
+    color: #00ff28/*#01c4e7*/;
+    font-family: 'Victor Mono', monospace;
+    font-size: 15px;
+}
+/*--------------------------------------------------------------------------------*/
+/*PANEL 4 CONTACTOS*/
+
+#contacto {
+    height: 800px;
+    margin-left:    300PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Victor Mono', monospace;  
+   /* padding-top: 200px;*/
+}
+
+#contac {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#contac img {
+    height: auto;
+    width: 60px;
+    margin: 30px 0 10px 0;
+}
+.paq {
+    color: white;
+}
